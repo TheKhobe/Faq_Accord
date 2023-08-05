@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styling the body tag, using the background color gradient property to style the body tag, from blue to violet */
+body{
+ background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 100px;
+ font-family: 'Kumbh Sans', sans-serif;
+}
+.contain{
+ margin: 0 auto;
+ background-image: url('/images/bg-pattern-desktop.svg');
+background-position: -174% 70%;
+background-repeat: no-repeat;
+border-radius: 22px;
+}
+.img-holder{
+ position: relative;
+ top: 0;
+ left: 0;
+}
+.image-1{
+ position: absolute;
+ margin-top: 50px;
+ margin-left: -100px;
+ left: 0;
+}
+.img-holder img{
+  overflow-x: hidden;
+}
+.img-holder .image-2{
+ margin-left: -50px;
+ width: 500px;
+ height: 350px;
+}
+h1{
+ font-weight: 400;
+font-weight: bold;
+font-family: 'Kumbh Sans', sans-serif;
+}
+.items{
+  border-bottom: 2px solid hsl(240, 5%, 91%);
+  padding: 20px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+p{
+  font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+h3{
+  color: hsl(240, 6%, 50%);
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.black{
+  color: black;
+}
+@media(max-width: 768px) {
+  .img-holder{
+margin-left: 100px;
+    margin-top: -30%;
+  }
+  .image-2{
+    width: 200px;
+  }
+  h1{
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  .items{
+    margin-left: -50px;
+   margin-right: 50px;
+  }
+  p{
+    margin-top: 15px;
+  }
+}

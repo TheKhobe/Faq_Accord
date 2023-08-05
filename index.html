@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+<body>
+<div class="flex md:flex-row flex-col md:space-between contain bg-white md:py-20">
+  <div class="flex flex-row items-center relative img-holder">
+<img src="images/illustration-box-desktop.svg" alt="" class="image-1">
+<img src="images/illustration-woman-online-desktop.svg" alt="" class="image-2">
+  </div>
+  <div class="faq flex flex-col space-y-12 ml-32">
+<h1 class="text-4xl darkGrayishBlue">FAQ</h1>
+<div class="faq-menu">
+  <div class="items">
+    <div class="flex flex-row md:space-x-16 space-x-4 items-center">
+      <h3 class="text-1xl" id="first"> How many team members can I invite?</h3>
+      <img src="/images/icon-arrow-down.svg" class="w-4" id="btn-down">
+    </div>
+  <p class="hidden p-4" id="para">You can invite up to 2 additional users on the Free plan.<br> There is no limit on 
+  team members for the Premium plan.</p>
+</div>
+  <div class="items">
+    <div class="flex flex-row md:space-x-16 space-x-4 items-center">
+    <h3 id="second"> What is the maximum file upload size?</h3>
+     <img src="/images/icon-arrow-down.svg" class="w-4" id="btn-down1">
+    </div>
+  <p class="hidden" id="para1">No more than 2GB. <br>All files in your account must fit your allotted storage space.</p>
+</div>
+   <div class="items">
+    <div class="flex flex-row space-x-32 items-center">
+    <h3 id="third"> How do I reset my password?</h3>
+     <img src="/images/icon-arrow-down.svg" class="w-4" id="btn-down2">
+    </div>
+  <p class="hidden" id="para2">Click “Forgot password” from the login page<br> or “Change password” from your profile page.<br>
+  A reset link will be emailed to you.</p>
+</div>
+  <div class="items">
+    <div class="flex flex-row space-x-32 items-center">
+    <h3 id="forth"> Can I cancel my subscription?</h3>
+     <img src="/images/icon-arrow-down.svg" class="w-4" id="btn-down3">
+    </div>
+  <p class="hidden" id="para3">Yes! Send us a message <br>and we’ll process your request no questions asked.</p>
+</div>
+  <div class="items">
+    <div class="flex flex-row space-x-24 items-center">
+    <h3 id="last"> Do you provide additional support?</h3>
+    <img src="/images/icon-arrow-down.svg" class="w-4" id="btn-down4">
+  </div>
+  <p class="hidden" id="para4">Chat and email support is available 24/7.<br> Phone lines are open during normal business hours.</p>
+</div>
+  </div>
+</div>
+</div>
+<script src="/js/jquery-3.6.1.min.js"></script>
+<script src="/js/jquery.js"></script>
+</body>
+</html>
